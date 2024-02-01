@@ -83,7 +83,7 @@ header {
 }
 
 .banner .slide {
-    width: 100vh;
+    width: 100vw;
     height: 100%;
     display: inline-block;
     background-color: rgba(0, 0, 0, 0.8);
