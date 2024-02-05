@@ -17,7 +17,7 @@ header {
 }
 
 .header {
-    max-width: 1140px;
+    max-width: 1440px;
     height: 100px;
     margin: auto;
     display: flex;
@@ -213,6 +213,8 @@ CSS DE AREA ESPECIFICAS
 .section-aboutus--left p{
     font-size: 14px;
     line-height: 25px;
+    padding-left: 10px;
+    text-align: justify;
 }
 
 .section-aboutus--right{
@@ -221,7 +223,7 @@ CSS DE AREA ESPECIFICAS
 }
 
 .section-aboutus--right img {
-    width: 480px;
+    width: 380px;
     box-shadow: 0px 5px 10px #333 ;
 }
 
@@ -288,4 +290,49 @@ CSS DE AREA ESPECIFICAS
 
 .section-projects--filters li:first-child {
     border-left: 0;
+}
+
+.section-projects--photos{
+    width: 100%;
+    max-height:1440px;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.section-projects--photo {
+    width: 280px;
+}
+
+.section-projects--photoarea {
+    margin: 10px;
+    width: 260px;
+    height: 160px;
+}
+
+.section-projects--photoarea img{
+    width: inherit;
+    height: inherit;
+}
+
+.section-projects--photoinfo {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: inherit;
+    height: inherit;
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.section-projects--photoinfo h5{
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.section-projects--photoarea:hover .section-projects--photoinfo{
+    display: flex;
 }
