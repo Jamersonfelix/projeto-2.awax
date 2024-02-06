@@ -440,3 +440,60 @@ CSS DE AREA ESPECIFICAS
 .section-team--social a:hover {
     background-color: #b28756;
 }
+
+.section-client-area{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-client {
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.section-client--avatarclient {
+    width: 150px;
+    height: auto;
+    align-items: center;
+}
+
+.section-client--nameclient {
+    font-weight: 600;
+    font-size: 20px;
+    margin-top: 25px;
+    text-align: center;
+}
+
+.section-client--roleclient {
+    font-size: 14px;
+    margin-top: 5px;
+    text-decoration: none;
+}
+
+.section-depoiment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: auto;
+}
+
+.section-depoiment--logo{
+    margin: auto;
+}
+
+.section-depoiment--text{
+    padding-top: 10px;
+    color: #999;
+    font-size: 14px;
+    text-align: center;
+    
+}
