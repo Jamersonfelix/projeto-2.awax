@@ -550,7 +550,7 @@ CSS DE AREA ESPECIFICAS
     align-items: center;
     box-sizing: border-box;
     width: 100%;
-    
+    margin: auto;
 }
 
 .section-body--price{
