@@ -587,3 +587,20 @@ CSS DE AREA ESPECIFICAS
     font-size: 8px;
     padding-top: 10px;
 }
+
+.section-premium {
+    display: inline-flex;
+    align-items: center;
+    width: 100%;
+    justify-content: center;
+    
+}
+
+.section-body--box {
+    
+}
+
+.section-text--box {
+    width: 363px;
+    height: 340px;
+}
