@@ -592,8 +592,7 @@ CSS DE AREA ESPECIFICAS
     display: inline-flex;
     align-items: center;
     width: 100%;
-    justify-content: center;
-    
+    justify-content: center;   
 }
 
 .section-text--box {
@@ -633,6 +632,22 @@ CSS DE AREA ESPECIFICAS
     line-height: 20px;
     list-style: none;
 }
+
+.section-reta-box{
+    width: 750px;
+    height: 0.5px;
+    background-color:#ccc;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.section-buttom--box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* secão work */
 
 .section-work{
     display: flex ;
@@ -693,11 +708,20 @@ CSS DE AREA ESPECIFICAS
     margin-right: 30px;
 }
 
-.section-tellaboutus .section-twitter{
+.section-tellaboutus .section-twitter,
+.section-tellaboutus .section-linkedin,
+.section-tellaboutus .section-facebook,
+.section-tellaboutus .section-google,
+.section-tellaboutus .section-pinterest{
     display: flex;
     align-items: center;
+    margin-right: 15px;
 }
-.section-tellaboutus .section-twitter .figure-twitter{
+.section-tellaboutus .section-twitter .figure-twitter,
+.section-tellaboutus .section-linkedin .figure-linkedin,
+.section-tellaboutus .section-facebook .figure-facebook,
+.section-tellaboutus .section-google .figure-googleplus,
+.section-tellaboutus .section-pinterest .figure-pinterest{
     display: flex;
     align-items: center;
     justify-content: center;
@@ -705,10 +729,39 @@ CSS DE AREA ESPECIFICAS
     height: 30px;
     border-radius: 50%;
     padding: 1px;
-    background-color: #5fade9;
 }
 
-.section-tellaboutus .section-twitter p{
+.section-tellaboutus .section-twitter p,
+.section-tellaboutus .section-linkedin p,
+.section-tellaboutus .section-facebook p,
+.section-tellaboutus .section-google p,
+.section-tellaboutus .section-pinterest p{
     color: #999;
     margin-left: 5px;
+}
+
+.section-tellaboutus .section-twitter .figure-twitter {
+    background-color: aqua;
+}
+
+.section-tellaboutus .section-linkedin .figure-linkedin{
+    background-color: rgb(56, 19, 223);
+}
+
+.section-tellaboutus .section-facebook .figure-facebook{
+    background-color: rgb(13, 13, 121);
+}
+
+.section-tellaboutus .section-google .figure-googleplus{
+    background-color: rgb(255, 89, 0);
+}
+
+.section-tellaboutus .section-pinterest .figure-pinterest{
+    background-color: rgb(168, 2, 2);
+}
+
+/* contatos - formulario */
+
+.default.light-contact{
+    background-color: #eee;
 }
