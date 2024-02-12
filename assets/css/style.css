@@ -769,3 +769,32 @@ CSS DE AREA ESPECIFICAS
 .default.light-contact{
     background-color: #eee;
 }
+
+.section-formulario {
+    max-width:450px;
+    margin: auto;
+    text-align: center;
+}
+
+.section-formulario input[type=text],
+.section-formulario textarea {
+    display:block;
+    width: 60px;
+    border: 0;
+    background:transparent;
+    border-bottom:1px solid #CCC;
+    outline:0;
+    margin-top:10px;
+}
+
+.section-formulario textarea {
+    height:100px;
+    resize:none;
+}
+.section-contact--split {
+    display:flex;
+}
+
+.section-contact--split input:first-child {
+    margin-right:20px;
+}    
