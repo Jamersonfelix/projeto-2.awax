@@ -848,3 +848,61 @@ CSS DE AREA ESPECIFICAS
    width: 15px;
    height: auto;
 }
+
+/* sessão de roda-pé "footer" */
+
+.section-default--footer {
+    background-color: #000;
+}
+
+.section-footer{
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    width: 100%;
+}
+
+.section-footer--social .social-media{
+    display: flex;
+    align-items: center;
+    
+}
+
+.section-footer--social .social-media .figure-social-media {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1px;
+    border-radius: 50%;
+    margin-right: 5px;
+    background-color: #555;
+}
+
+.section-footer--text {
+    width: 280px;
+    height: 280px;
+}
+
+.section-footer--text .footer--text p {
+    color: #555;
+    font-size: 12px;
+    text-align: justify;
+    padding-top: 15px;
+}
+
+.section-footer--text .footer--text p::first-letter{
+    text-transform: uppercase;
+}
+
+.section-default--footer .awax{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-default--footer .awax p {
+    color:#eee;
+    font-size: 10px;
+}
