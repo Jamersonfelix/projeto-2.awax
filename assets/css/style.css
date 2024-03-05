@@ -34,6 +34,9 @@ header {
     background-color: #b28756;
     border-radius: 50%;
 }
+.menu-opener{
+   display: none;
+}
 
 .menu{
     flex: 1;
@@ -294,7 +297,6 @@ CSS DE AREA ESPECIFICAS
 
 .section-projects--photos{
     width: 100%;
-    max-height:1440px;
     margin-top: 20px;
     display: flex;
     flex-wrap: wrap;
@@ -905,4 +907,239 @@ CSS DE AREA ESPECIFICAS
 .section-default--footer .awax p {
     color:#eee;
     font-size: 10px;
+}
+
+/* RESPONSIVIDADE DO SITE PARA UM TABLET*/
+/* ativar o menu*/
+@media (min-width:450px) and (max-width:800px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color:rgba(0, 0, 0, 0.9);
+        width: 70vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li a {
+        font-weight: bold;
+        height: 80px;
+        font-size: 27px;
+        margin-right: 60px;
+        border: 0;
+    }
+
+    .menu li.active a {
+        border: 0;
+        color: #b28756;
+    }
+    
+    /*resonsividade das sessões*/
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus--left {
+        margin-left:30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-aboutus--right{
+        width: auto;
+    }
+
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 50%;
+        margin-bottom:30px;
+    }
+
+    .section-service:first-child{
+        border-left: 0;
+    }
+
+    /* responsividade da sessão team*/
+    .section-team{
+        max-width: 580px;
+    }
+
+    /* responsividade da area do map*/
+
+    .section-maps {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .section-map--area{
+        width: auto;
+    }
+    .section-map--info{
+        width:auto
+    }
+    .section-map--info-item{
+        margin-bottom: 20px;
+    }
+    .section-map--info-item:last-child{
+        margin-bottom: 0;
+    }
+}
+
+/* RESPONSIVIDADE DO SITE PARA UM CELULAR*/
+/* ativar o menu*/
+@media (max-width:450px) {
+    .logo {
+        margin-left: 30px;
+    }
+    .menu-opener{
+        display: block;
+        width: 45px;
+        margin-right: 30px;
+    }
+
+    nav {
+        display: none;
+        position: absolute;
+        z-index: 99;
+        background-color:rgba(0, 0, 0, 0.9);
+        width: 80vw;
+        height: calc(100vh - 100px);
+        top: 100px;
+        right: 0;
+    }
+    
+    .menu ul {
+        flex-direction: column;
+    }
+    .menu li a {
+        font-weight: bold;
+        height: 60px;
+        font-size: 20px;
+        margin-right: 30px;
+        border: 0;
+    }
+
+    .menu li.active a {
+        border: 0;
+        color: #b28756;
+    }
+    
+    /*resonsividade das sessões*/
+
+    .banner h1{
+        font-size: 30px;
+    }
+    .banner h2 {
+        font-size: 17px;
+    }
+
+    .section-aboutus {
+        flex-direction: column;
+    }
+
+    .section-aboutus--left {
+        margin-left:30px;
+        margin-right: 30px;
+        margin-bottom: 30px;
+    }
+
+    .section-aboutus--right{
+        width: auto;
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+    .section-aboutus--right img {
+        width: 100%;
+    }
+    .section-services {
+        flex-wrap: wrap;
+    }
+
+    .section-service {
+        min-width: 100%;
+        margin-bottom:30px;
+    }
+
+    .section-service:first-child{
+        border-left: 0;
+    }
+
+    .section-projects--filters{
+        margin-left: 30px;
+        margin-right: 30px;
+    }
+
+    .section-projects--photo{
+        width: 320px;
+        max-height: none;
+    }
+
+    .section-projects--photoarea{
+        width: 300px;
+        height: 190px;
+    }
+
+    /* responsividade da sessão team*/
+    .section-team{
+        max-width: 280px;
+    }
+    .section-depoiment{
+        width: auto;
+    }
+
+    .defaultlight-companies{
+        display: block;
+        height: auto;
+    }
+    .section-companies{
+        flex-wrap: wrap;
+        margin: auto;
+    }
+    .section-companies a {
+        width: 50%;
+        padding: 30px
+
+    }
+
+    .section-companies a img{
+        width: 100%;
+    }
+
+    /* responsividade da area do map*/
+
+    .section-maps {
+        padding:0;
+        padding-bottom: 250px;
+    }
+
+    .section-map--area{
+        width: auto;
+    }
+    .section-map--info{
+        width:auto
+    }
+    .section-map--info-item{
+        margin-bottom: 20px;
+    }
+    .section-map--info-item:last-child{
+        margin-bottom: 0;
+    }
 }
