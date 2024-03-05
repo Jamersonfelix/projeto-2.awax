@@ -1123,6 +1123,67 @@ CSS DE AREA ESPECIFICAS
         width: 100%;
     }
 
+    .section-price {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .section-body--price{
+        width: 280px;
+        font-size: 30px;
+    }
+
+    .section-work{
+        flex-wrap: wrap;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .defaultlight-tellaboutus{
+        height: auto;
+    }
+
+    .section-tellaboutus{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px;
+    }
+    .section-tellaboutus .section-twitter, .section-tellaboutus .section-linkedin, .section-tellaboutus .section-facebook, .section-tellaboutus .section-google, .section-tellaboutus .section-pinterest{
+        padding: 5px;
+    }
+
+    .section-formulario{
+        margin-left: 20px;
+    }
+    .section-contact--split{
+        display: flex;
+        flex-direction: column;
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+    .section-formulario input[type=text], .section-formulario textarea{
+        margin-left: 15px;
+        margin-right: 15px;
+    }
+
+    .section-premium{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .section-footer{
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        padding: 30px;
+    }
+
     /* responsividade da area do map*/
 
     .section-maps {
